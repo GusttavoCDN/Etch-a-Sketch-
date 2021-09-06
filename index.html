@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allison&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Etch-a-Sketch</title>
+</head>
+
+<body>
+
+    <main class="main">
+        <div class="settings">
+            <input id="colorPicker" type="color" value="fff" class="control">
+            <button class="control color_mode active">Color mode</button>
+            <button class="control rainbow_mode">Rainbow mode</button>
+            <button class="control eraser">Erase</button>
+            <button class="control clear">Clear</button>
+        </div>
+
+        <div class="etch_container">
+            <h1>Etch-a-Sketch</h1>
+            <div class="etch_screen">
+
+            </div>
+
+
+            <input class="sizeControl" type="range" value="16" min="1" max="64">
+
+
+            <div class="buttons">
+                <div class="etch_button right"></div>
+                <div class="etch_button left"></div>
+            </div>
+
+        </div>
+
+    </main>
+</body>
+
+</html>
